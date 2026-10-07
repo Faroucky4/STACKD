@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STACKD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #111;
+      text-align: center;
+    }
 
+    header {
+      padding: 40px 20px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .tagline {
+      color: #666;
+      font-size: 18px;
+    }
+
+    .card {
+      background: white;
+      max-width: 500px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    }
+
+    .money {
+      font-size: 50px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    input {
+      width: 80%;
+      padding: 12px;
+      margin: 7px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 12px 20px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      background: #111;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>STACKD 💰</h1>
+    <p class="tagline">Turn your free time into money.</p>
+  </header>
+
+  <div class="card">
+    <h2>You've earned</h2>
+    <div class="money">$0.00</div>
+
+    <input type="text" placeholder="What did you do?">
+    <input type="number" placeholder="How much did you earn?">
+
+    <br>
+
+    <button>Add Money</button>
+  </div>
+
+</body>
+</html>
